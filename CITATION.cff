@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the article (preferred) and this archive."
+title: "Code and processed data for: Data-Driven Joint Distance-Angle Path Loss Modeling for Short-Range Sub-THz LoS Links at 240-300 GHz"
+type: software
+authors:
+  - family-names: "Zakka El Nashef"
+    given-names: "Georges"
+    orcid: "https://orcid.org/0000-0001-9297-0028"
+    affiliation: "American University of the Middle East, Kuwait"
+  - family-names: "Ghanem"
+    given-names: "Haitham"
+    orcid: "https://orcid.org/0000-0002-7147-8154"
+    affiliation: "American University of the Middle East, Kuwait"
+license: MIT
+version: "1.0.0"
+repository-code: "https://github.com/GZEN24/SUB_THZ_CH"
+preferred-citation:
+  type: article
+  title: "Data-Driven Joint Distance-Angle Path Loss Modeling for Short-Range Sub-THz LoS Links at 240-300 GHz"
+  authors:
+    - family-names: "Zakka El Nashef"
+      given-names: "Georges"
+    - family-names: "Ghanem"
+      given-names: "Haitham"
+  journal: "IEEE Open Journal of the Communications Society"
+  doi: "10.1109/OJCOMS.2026.3747701"
+  year: 2026

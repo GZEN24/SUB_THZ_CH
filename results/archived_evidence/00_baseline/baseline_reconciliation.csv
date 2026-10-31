@@ -1,0 +1,26 @@
+model,protocol,aggregation,metric,value,source,evidence
+M1,LOO,pooled_points,rmse_db,0.41141330611578364,block2_output/round2_revision/figure_loo_predictions.csv,raw rows available
+M2,LOO,pooled_points,rmse_db,0.22387227536705864,block2_output/round2_revision/figure_loo_predictions.csv,raw rows available
+M3,LOO,pooled_points,rmse_db,0.56128849656039526,block2_output/round2_revision/figure_loo_predictions.csv,raw rows available
+M4,LOO,pooled_points,rmse_db,0.11394618893279861,block2_output/round2_revision/figure_loo_predictions.csv,raw rows available
+M5,LOO,pooled_points,rmse_db,0.077627933244424505,block2_output/m5_matern_loo_predictions.csv,raw rows available
+M1,LODO,macro_folds,rmse_db,0.43347883606843318,block2_output/lodo_per_fold.csv,fold RMSEs only; historical raw rows absent
+M1,LODO,pooled_points,rmse_db,0.48269407453401325,block2_output/lodo_per_fold.csv,derived from equally sized historical folds; historical raw rows absent
+M2,LODO,macro_folds,rmse_db,0.4036356510658437,block2_output/lodo_per_fold.csv,fold RMSEs only; historical raw rows absent
+M2,LODO,pooled_points,rmse_db,0.54947928643756938,block2_output/lodo_per_fold.csv,derived from equally sized historical folds; historical raw rows absent
+M3,LODO,macro_folds,rmse_db,0.7841510046149246,block2_output/lodo_per_fold.csv,fold RMSEs only; historical raw rows absent
+M3,LODO,pooled_points,rmse_db,0.99766566989692584,block2_output/lodo_per_fold.csv,derived from equally sized historical folds; historical raw rows absent
+M4,LODO,macro_folds,rmse_db,1.9783067261801466,block2_output/lodo_per_fold.csv,fold RMSEs only; historical raw rows absent
+M4,LODO,pooled_points,rmse_db,3.2886180711479773,block2_output/lodo_per_fold.csv,derived from equally sized historical folds; historical raw rows absent
+M1,LOAO,macro_folds,rmse_db,0.51550479541981786,block2_output/loao_per_fold.csv,fold RMSEs only; historical raw rows absent
+M1,LOAO,pooled_points,rmse_db,0.61874576286961058,block2_output/loao_per_fold.csv,derived from equally sized historical folds; historical raw rows absent
+M2,LOAO,macro_folds,rmse_db,0.25342894623219731,block2_output/loao_per_fold.csv,fold RMSEs only; historical raw rows absent
+M2,LOAO,pooled_points,rmse_db,0.29961589534490429,block2_output/loao_per_fold.csv,derived from equally sized historical folds; historical raw rows absent
+M3,LOAO,macro_folds,rmse_db,0.49667234624297629,block2_output/loao_per_fold.csv,fold RMSEs only; historical raw rows absent
+M3,LOAO,pooled_points,rmse_db,0.86921253690245248,block2_output/loao_per_fold.csv,derived from equally sized historical folds; historical raw rows absent
+M4,LOAO,macro_folds,rmse_db,0.18657549582450711,block2_output/loao_per_fold.csv,fold RMSEs only; historical raw rows absent
+M4,LOAO,pooled_points,rmse_db,0.47767707683673877,block2_output/loao_per_fold.csv,derived from equally sized historical folds; historical raw rows absent
+M4,LOO,fold_specific,coverage,0.934640522875817,block2_output/round2_revision/figure_loo_predictions.csv,143/153
+M4,LOO,constant_mean_halfwidth,coverage,0.90196078431372551,block2_output/round2_revision/figure_loo_predictions.csv,138/153
+M5,LOO,fold_specific,coverage,0.96078431372549022,block2_output/m5_matern_loo_predictions.csv,147/153
+M5,LOO,constant_mean_halfwidth,coverage,0.94117647058823528,block2_output/m5_matern_loo_predictions.csv,144/153

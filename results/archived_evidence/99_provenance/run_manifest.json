@@ -1,0 +1,86 @@
+{
+  "run_id": "ojcoms_round3_20261009",
+  "completed_utc": "2026-10-09T08:18:56.326420+00:00",
+  "client_date": "2026-10-09",
+  "client_timezone": "Asia/Riyadh",
+  "active_project_root": "<PROJECT_ROOT>",
+  "exclusive_new_output_root": "<PROJECT_ROOT>\\Paper\\Final_paper",
+  "authoritative_previous_manuscript": "<PROJECT_ROOT>\\Paper\\Final_paper\\Last_paper",
+  "authority_resolution": "User confirmed nested path in chat; no substitute or relocation",
+  "execution_order_original_path": "<local path redacted>",
+  "execution_order_sha256": "3366bde0329eaa8f1e998c9494f58b49bf2b02e76aac22755433c2f8de53d3c2",
+  "required_artifacts": {
+    "00_baseline": [
+      "source_manifest.csv",
+      "environment.txt",
+      "baseline_reconciliation.csv",
+      "validation_protocol_audit.md",
+      "pl_targets_153.csv"
+    ],
+    "01_m5_grouped": [
+      "run_m5_grouped.py",
+      "m5_lodo_predictions.csv",
+      "m5_loao_predictions.csv",
+      "m5_50_80_predictions.csv",
+      "m5_fold_metrics.csv",
+      "m5_optimized_kernels.csv",
+      "m5_grouped_summary.csv",
+      "m1_m5_validation_comparison.csv",
+      "m5_analysis.md"
+    ],
+    "02_grouped_uncertainty": [
+      "run_grouped_uncertainty.py",
+      "m4_grouped_pi_predictions.csv",
+      "m5_grouped_pi_predictions.csv",
+      "grouped_pi_fold_metrics.csv",
+      "grouped_pi_summary.csv",
+      "grouped_pi_interval_scores.csv",
+      "grouped_pi_calibration_assessment.md"
+    ],
+    "03_mlp_robustness": [
+      "run_mlp_robustness.py",
+      "mlp_configurations.csv",
+      "mlp_fold_predictions.csv",
+      "mlp_fold_metrics.csv",
+      "mlp_configuration_summary.csv",
+      "mlp_seed_summary.csv",
+      "mlp_robustness_assessment.md",
+      "mlp_runtime_report.md"
+    ],
+    "04_scientific_synthesis": [
+      "UNIFIED_MODEL_COMPARISON.csv",
+      "FINAL_SCIENTIFIC_ASSESSMENT.md",
+      "REVIEWER_CLOSURE_MATRIX.md",
+      "NUMERICAL_CLAIM_LEDGER.csv",
+      "REMAINING_SCIENTIFIC_GAPS.md"
+    ],
+    "99_provenance": [
+      "run_manifest.json",
+      "commands.log",
+      "input_hashes.sha256",
+      "output_hashes.sha256",
+      "numerical_verification.md",
+      "SESSION_HANDOFF.md"
+    ]
+  },
+  "missing_required_artifacts": [],
+  "verification_tests": 16381,
+  "verification_failed_count": 0,
+  "all_original_inputs_preserved": true,
+  "original_manifest": "00_baseline/source_manifest.csv",
+  "fold_membership": "99_provenance/fold_manifest.json",
+  "experiments": {
+    "A": "COMPLETE_PASS_EXECUTION",
+    "B": "COMPLETE; LODO/HOLDOUT reliability FAIL, LOAO LIMITED",
+    "C": "COMPLETE_30_CONFIGURATIONS_810_FITS"
+  },
+  "source_import_strategy": "AST function definitions only; no original module top-level execution",
+  "scientific_recommendation": "CONDITIONAL GO",
+  "manuscript_changed": false,
+  "response_letter_changed": false,
+  "original_project_state_changed": false,
+  "packages_installed": false,
+  "git_mutated": false,
+  "output_hash_policy": "Includes all new files except output_hashes.sha256 itself; no redirected finalizer log",
+  "new_outputs_before_manifest": 109
+}

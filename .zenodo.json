@@ -1,0 +1,43 @@
+{
+  "title": "Code and processed data for: Data-Driven Joint Distance-Angle Path Loss Modeling for Short-Range Sub-THz LoS Links at 240-300 GHz",
+  "upload_type": "software",
+  "description": "Reproducibility package for the 2026 IEEE Open Journal of the Communications Society article (DOI: 10.1109/OJCOMS.2026.3747701). Contains a self-contained Python implementation of five path-loss models (separable log-distance/quadratic-angle, 2-D cubic polynomial, MLP, Gaussian process with RBF kernel, Gaussian process with anisotropic Matern 5/2 kernel), validation scripts (pointwise LOO, leave-one-distance-out, leave-one-angle-out, simultaneous 50/80 cm holdout), the 153-point processed path-loss table derived from the public IEEE DataPort measurements of Karakoca et al., and archived evidence tables (fold predictions, fitted kernels, interval-reliability results, MLP sensitivity grid). The original third-party measurement files (Karakoca et al.; Tekbiyik et al.) and the SJTU simulation data are NOT redistributed; obtain them from their rights holders.",
+  "creators": [
+    {
+      "name": "Zakka El Nashef, Georges",
+      "affiliation": "American University of the Middle East, Kuwait",
+      "orcid": "0000-0001-9297-0028"
+    },
+    {
+      "name": "Ghanem, Haitham",
+      "affiliation": "American University of the Middle East, Kuwait",
+      "orcid": "0000-0002-7147-8154"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "sub-terahertz",
+    "path loss",
+    "6G",
+    "Gaussian process regression",
+    "channel modeling",
+    "240-300 GHz",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.21227/txmh-mz22",
+      "relation": "isDerivedFrom",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.1109/OJCOMS.2026.3747701",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    }
+  ],
+  "notes": "Related published article DOI: 10.1109/OJCOMS.2026.3747701. No Zenodo archive DOI is claimed until Zenodo mints one. Third-party measurement rights remain with the original data providers; see README and data/README.md."
+}

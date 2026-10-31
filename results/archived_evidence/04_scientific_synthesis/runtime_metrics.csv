@@ -1,0 +1,2 @@
+pilot_fits,sweep_fits,successful_fits,failed_fits,max_iter_fits,total_fit_seconds,median_fit_seconds,maximum_fit_seconds,actual_logged_wall_seconds,pilot_conservative_estimate_seconds
+6,810,810,0,71,1045.6930181910284,1.2670717500150204,3.2848069001920521,1045.9424254996702,2555.068212125916
